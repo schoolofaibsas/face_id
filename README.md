@@ -12,7 +12,11 @@ Necesitamos correr la version de Python 3.6.x (no la 3.7 porque tensorflow-gpu n
 
 Si necesitan hacer un downgrade, desde el Anaconda navigator pueden hacerlo:
 
-![Alt text](python-version-change?raw=true "Change Python Version")
+![Alt text](python-version-change.png?raw=true "Change Python Version")
+
+Si están utilizando Visual Studio Code pueden hacerlo en la barra inferior, cambiando el compilador:
+
+![Alt text](python-version.png?raw=true "Change Python Version")
 
 Luego debemos verificar que estamos utilizando una versión actualizada de pip, ejecutando el siguiente comando:
 
