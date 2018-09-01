@@ -18,6 +18,10 @@ Si están utilizando Visual Studio Code pueden hacerlo en la barra inferior, cam
 
 ![Alt text](python-version.png?raw=true "Change Python Version")
 
+### IMPORTANTE 2!
+
+Verificar que el path a la instalación de Python3.6 está en la variable PATH del sistema. (En general es C:\Program files\Python36).
+
 Luego debemos verificar que estamos utilizando una versión actualizada de pip, ejecutando el siguiente comando:
 
 ```
@@ -29,5 +33,32 @@ Hemos dejado un archivo "requirements.txt", donde figuran todos los requerimient
 Para instalar automáticamente los requerimientos, ejecuten en la consola el siguiente código:
 
 ```
-pip install -r requirements.txt
+pip install --ignore-installed --user -r requirements.txt
 ```
+## Ejecución
+
+Para ejecutar el modelo deberán ejecutar el siguiente comando:
+
+```
+python main.py './models/model.py' './ids/'
+```
+
+Para los que me preguntaron acerca de integrarlo con visual studio, dentro de anaconda navigation se puede instalar Visual Studio Code.
+
+Luego, para incluir los parámetros de inicialización en el debug, tienen que acceder al archivo "launch.json" (Debug --> Add configuration), y agregar los args al primer objeto:
+
+```
+{
+    "name": "Python: Current File",
+    "type": "python",
+    "request": "launch",
+    "program": "${file}",
+    "args": [
+        "./models/model.pb",
+        "./ids/"
+    ]
+},
+```
+
+
+        
