@@ -18,6 +18,10 @@ Si están utilizando Visual Studio Code pueden hacerlo en la barra inferior, cam
 
 ![Alt text](python-version.png?raw=true "Change Python Version")
 
+### IMPORTANTE 2!
+
+Verificar que el path a la instalación de Python3.6 está en la variable PATH del sistema. (En general es C:\Program files\Python36).
+
 Luego debemos verificar que estamos utilizando una versión actualizada de pip, ejecutando el siguiente comando:
 
 ```
