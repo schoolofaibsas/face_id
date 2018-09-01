@@ -37,6 +37,9 @@ Para instalar automáticamente los requerimientos, ejecuten en la consola el sig
 ```
 pip install --ignore-installed --user -r requirements.txt
 ```
+
+NOTA: Para los que no tengan el modelo ResNet, pueden descargarlo del siguiente link: https://drive.google.com/file/d/0B5MzpY9kBtDVZ2RpVDYwWmxoSUk/edit
+
 ## Ejecución
 
 Para ejecutar el modelo deberán ejecutar el siguiente comando:
