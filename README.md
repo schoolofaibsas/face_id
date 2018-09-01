@@ -20,7 +20,7 @@ Si están utilizando Visual Studio Code pueden hacerlo en la barra inferior, cam
 
 Luego debemos verificar que estamos utilizando una versión actualizada de pip, ejecutando el siguiente comando:
 
-```python
+```
 python -m pip install --upgrade pip
 ```
 
@@ -28,6 +28,6 @@ Hemos dejado un archivo "requirements.txt", donde figuran todos los requerimient
 
 Para instalar automáticamente los requerimientos, ejecuten en la consola el siguiente código:
 
-```python
+```
 pip install -r requirements.txt
 ```
