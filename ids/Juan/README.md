@@ -1,0 +1,1 @@
+# Agregar fotos de la persona a reconocer aquí
