@@ -4,7 +4,8 @@ En este primer encuentro, trabajamos en comenzar a entender el funcionamiento de
 
 El proyecto consiste en capturar y reconocer caras en imágenes obtenidas de una webcam. 
 
-NOTA: este ejercicio fue creado a partir del trabajo de habrman. Pueden acceder al repo original: https://github.com/habrman/FaceRecognition.git
+> NOTA: este ejercicio fue creado a partir del trabajo de habrman. Pueden acceder al repo original:
+> https://github.com/habrman/FaceRecognition.git
 
 ## Requerimientos
 
@@ -38,7 +39,10 @@ Para instalar automáticamente los requerimientos, ejecuten en la consola el sig
 pip install --ignore-installed --user -r requirements.txt
 ```
 
-NOTA: Para los que no tengan el modelo ResNet, pueden descargarlo del siguiente link: https://drive.google.com/file/d/0B5MzpY9kBtDVZ2RpVDYwWmxoSUk/edit
+> NOTA: Para los que no tengan el modelo ResNet, pueden descargarlo del siguiente link:
+> https://drive.google.com/file/d/0B5MzpY9kBtDVZ2RpVDYwWmxoSUk/edit
+
+Luego extraerlo en la carpeta "models".
 
 ## Ejecución
 
@@ -49,6 +53,8 @@ python main.py './models/model.py' './ids/'
 ```
 
 Para los que me preguntaron acerca de integrarlo con visual studio, dentro de anaconda navigation se puede instalar Visual Studio Code.
+
+> NOTA: Inicien Visual Studio Code como administrador.
 
 Luego, para incluir los parámetros de inicialización en el debug, tienen que acceder al archivo "launch.json" (Debug --> Add configuration), y agregar los args al primer objeto:
 
