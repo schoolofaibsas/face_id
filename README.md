@@ -1,6 +1,6 @@
 # Face Recognition
 
-En este primer encuentro, trabajamos en comenzar a entender el funcionamiento de keras y tensorflow, utilizando Python.
+En este primer encuentro, trabajamos en comenzar a entender el funcionamiento de tensorflow, utilizando Python.
 
 El proyecto consiste en capturar y reconocer caras en imágenes obtenidas de una webcam. 
 
