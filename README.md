@@ -29,5 +29,5 @@ Hemos dejado un archivo "requirements.txt", donde figuran todos los requerimient
 Para instalar automáticamente los requerimientos, ejecuten en la consola el siguiente código:
 
 ```
-pip install -r requirements.txt
+pip install --ignore-installed --user -r requirements.txt
 ```
