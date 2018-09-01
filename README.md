@@ -10,6 +10,6 @@ Hemos dejado un archivo "requirements.pip", donde figuran todos los requerimient
 
 Para instalar automáticamente los requerimientos, ejecuten en la consola el siguiente código:
 
-while read p; do
-  pip install $p
-done < requirements.pip
+```python
+pip install -r requirements.txt
+```
