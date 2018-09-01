@@ -4,6 +4,8 @@ En este primer encuentro, trabajamos en comenzar a entender el funcionamiento de
 
 El proyecto consiste en capturar y reconocer caras en imágenes obtenidas de una webcam. 
 
+NOTA: este ejercicio fue creado a partir del trabajo de habrman. Pueden acceder al repo original: https://github.com/habrman/FaceRecognition.git
+
 ## Requerimientos
 
 ### IMPORTANTE!
