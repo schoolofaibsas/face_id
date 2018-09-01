@@ -35,3 +35,30 @@ Para instalar automáticamente los requerimientos, ejecuten en la consola el sig
 ```
 pip install --ignore-installed --user -r requirements.txt
 ```
+## Ejecución
+
+Para ejecutar el modelo deberán ejecutar el siguiente comando:
+
+```
+python main.py './models/model.py' './ids/'
+```
+
+Para los que me preguntaron acerca de integrarlo con visual studio, dentro de anaconda navigation se puede instalar Visual Studio Code.
+
+Luego, para incluir los parámetros de inicialización en el debug, tienen que acceder al archivo "launch.json" (Debug --> Add configuration), y agregar los args al primer objeto:
+
+```
+{
+    "name": "Python: Current File",
+    "type": "python",
+    "request": "launch",
+    "program": "${file}",
+    "args": [
+        "./models/model.pb",
+        "./ids/"
+    ]
+},
+```
+
+
+        
