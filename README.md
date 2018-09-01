@@ -6,7 +6,7 @@ El proyecto consiste en capturar y reconocer caras en imágenes obtenidas de una
 
 ## Requerimientos
 
-Hemos dejado un archivo "requirements.pip", donde figuran todos los requerimientos necesarios para ejecutar el programa en "main.py".
+Hemos dejado un archivo "requirements.txt", donde figuran todos los requerimientos necesarios para ejecutar el programa en "main.py".
 
 Para instalar automáticamente los requerimientos, ejecuten en la consola el siguiente código:
 
