@@ -49,7 +49,7 @@ Luego extraerlo en la carpeta "models".
 Para ejecutar el modelo deberán ejecutar el siguiente comando:
 
 ```
-python main.py './models/model.py' './ids/'
+python main.py './models/model.pb' './ids/'
 ```
 
 Para los que me preguntaron acerca de integrarlo con visual studio, dentro de anaconda navigation se puede instalar Visual Studio Code.
