@@ -6,4 +6,4 @@ pandas
 setuptools==39.1.0
 numpy==1.14.5
 # Para los que tienen una placa Nvidia con CUDA, reemplazar con tensorflow-gpu
-tensorflow-gpu
+tensorflow
