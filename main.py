@@ -49,7 +49,7 @@ class IdData():
                       " you can solve it by increasing the thresolds of the cascade network")
             aligned_images = aligned_images + face_patches
             id_image_paths += [image_path] * len(face_patches)
-            self.id_names += [image_path.split('/')[-2]] * len(face_patches)
+            self.id_names += [image_path.replace("\\", "/").split('/')[-2]] * len(face_patches)
 
         return np.stack(aligned_images), id_image_paths
 
